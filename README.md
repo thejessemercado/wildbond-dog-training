@@ -1,25 +1,21 @@
 # Wildbond Dog Training
 
-Buildless responsive landing page. Plain HTML, CSS, and JavaScript; no paid services, database, analytics, or payment processing.
+Static HTML/CSS/JavaScript website hosted on GitHub Pages.
 
-## Preview
+- Website: https://thejessemercado.github.io/wildbond-dog-training/
+- Repository: https://github.com/thejessemercado/wildbond-dog-training
+- Verified Calendly event: https://calendly.com/mercado_jesse/calendar
 
-Run `python3 -m http.server 8080`, then open http://localhost:8080.
+## Maintenance
 
-## Maintain
+Edit index.html for content and Calendly URL, styles.css for layout, and script.js for navigation. Photos and mark.svg are hosted in the repository root. Photography credits are in photo-credits.html. Do not replace imagery until approved owner photos are supplied.
 
-- `index.html`: copy, prices, service area, contact and Calendly placeholders.
-- `styles.css`: visual system and mobile breakpoints.
-- `script.js`: accessible mobile navigation.
-- ``: locally hosted photos and original provisional canine emblem.
-- `photo-credits.html`: imagery attribution and disclosure.
+The inline embed uses Calendly's supported external widget. A direct fallback link remains available. No calendar credentials or private calendar contents belong in this repository. Website contact information remains unverified and is not published. The proposed paid package price is not published; paid enrollment follows the free introduction.
 
-Never add contact details or a Calendly URL until verified. Booking is deliberately inactive. No form collects client data. Replace the booking placeholder with a verified scheduling link only after approval of the exact URL. Do not identify stock dogs as Charlie, Piper, or clients. Add a real trainer portrait and approved bio when supplied.
+Appointments remain paused until the recurring schedule is approved. The website accurately reflects this state. No test appointment has been authorized or created. Calendar invitation delivery and a completed booking must not be described as tested until explicitly verified.
 
-Content follows the Wildbond Brand Identity, Brand Philosophy & Academy Vision, Apparel Visual System & Marketing, and Startup Classes & Launch Offers documents read on October 25, 2026. The user's launch instruction selects the free 30-minute intro and $225 three-week package over older proposed offers. Internal planning and revenue details are excluded.
+Calendly account: Free plan; one event type, one connected Google Calendar. Automated reminder emails and custom invitation templates are not included. Default invitations include the event description, location, and cancellation/rescheduling links. Use manual reminders or invitees' own calendar notifications as free alternatives.
 
-## Hosting
+Local preview only: python3 -m http.server 8080 (localhost is not a public mobile link).
 
-Requested repository: `wildbond-dog-training` (public). Static root is compatible with GitHub Pages, with `.nojekyll`. GitHub Pages imposes usage restrictions, including on sites primarily facilitating commercial transactions; review https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits before activating commercial booking. No checkout is implemented.
-
-After repository creation, upload these source files and assets, select Settings → Pages → Deploy from a branch → main → /(root), and verify the resulting URL. No domain purchase is needed. Repository: https://github.com/thejessemercado/wildbond-dog-training. See Settings > Pages for current deployment status.
+Deploy updates to the existing main branch; GitHub Pages builds from its root. Do not introduce paid hosting or a custom domain.
